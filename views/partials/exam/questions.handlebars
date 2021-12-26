@@ -1,0 +1,89 @@
+<div class="modal" id="confirm-exam" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sınavı Onayla</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>Sınavınızı onaylamak istediğinizden emin misiniz?</p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >Kapat</button>
+        <button id="confirm" type="button" class="btn btn-primary">Evet</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section
+  class="questions-wrapper question-screen d-none"
+  total-question="{{exam.questions.length}}"
+>
+  <div class="camera">
+    <video src="" muted></video>
+  </div>
+  {{#each exam.questions}}
+    <ul
+      id="question-item-{{@key}}"
+      class="d-none list-group question-item text-capitalize"
+    >
+      <li class="list-group-item active" aria-current="true">{{title}}</li>
+      {{#each answers}}
+        <li class="list-group-item">{{this}}</li>
+      {{/each}}
+    </ul>
+  {{/each}}
+  <div class="btn-group mt-3" role="group" aria-label="İlerleme Butonları">
+    <button
+      type="button"
+      class="btn btn-primary"
+      id="back-question"
+    >Geri</button>
+    <button
+      type="button"
+      class="btn btn-success"
+      id="next-question"
+    >İleri</button>
+  </div>
+</section>
+<section class="exam-info my-3">
+  <div class="accordion question-screen d-none" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          Sınav Bilgileri
+        </button>
+      </h2>
+      <div
+        id="collapseOne"
+        class="accordion-collapse collapse show"
+        aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <p>Ders Adı: <b>{{exam.title}}</b></p>
+          <p>Toplam <b>{{exam.questions.length}}</b> adet soru. </p>
+          <p>Toplam Süre: <b id="total-time">10:00</b></p>
+          <p>Kalan Süre: <b id="remain-time">10:00</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

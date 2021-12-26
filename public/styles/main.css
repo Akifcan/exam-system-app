@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #006694;
+}
+
+.avatar {
+  --avatar-size: 40px;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  background-image: var(--avatar-url);
+  background-size: cover;
+}
+
+.announcement .detail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.calendar .weeks {
+  margin-block: 1rem;
+}
+
+.calendar .days,
+.calendar .weeks {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.calendar .days .day {
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.calendar .weeks .week {
+  padding-inline: 0.8rem;
+}
+
+.calendar .days .day:hover,
+.calendar .days .day.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.camera {
+  border-radius: 0.4rem;
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  right: 2rem;
+  bottom: 2rem;
+  background-color: var(--primary-color);
+}
+
+.camera video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

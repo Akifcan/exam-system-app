@@ -1,0 +1,20 @@
+[
+  {
+    "title": "About Graphql Quiz",
+    "teacher": 2,
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A saepe similique, porro quisquam enim ratione placeat maiores vel minus eligendi possimus fugiat cumque? Modi fugiat nostrum, exercitationem illo non est!",
+    "date": "2021/12/26"
+  },
+  {
+    "title": "About CSS Quiz",
+    "teacher": 5,
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A saepe similique, porro quisquam enim ratione placeat maiores vel minus eligendi possimus fugiat cumque? Modi fugiat nostrum, exercitationem illo non est!",
+    "date": "2021/12/1"
+  },
+  {
+    "title": "For programming students",
+    "teacher": 6,
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A saepe similique, porro quisquam enim ratione placeat maiores vel minus eligendi possimus fugiat cumque? Modi fugiat nostrum, exercitationem illo non est!",
+    "date": "2021/12/22"
+  }
+]

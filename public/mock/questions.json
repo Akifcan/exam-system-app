@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "examId": "1",
+    "title": "Visual Programming",
+    "faculty": "frontend",
+    "questions": [
+      {
+        "title": "soru bir vp",
+        "correct": "cevap1vp",
+        "answers": ["cevap1vp", "cevap2vp", "cevap3vp", "cevap4vp", "cevap5vp"]
+      },
+      {
+        "title": "soru iki vp",
+        "correct": "cevap3vp",
+        "answers": ["cevap1vp", "cevap2vp", "cevap3vp", "cevap4vp", "cevap5vp"]
+      },
+      {
+        "title": "soru üc vp",
+        "correct": "cevap5vp",
+        "answers": ["cevap1vp", "cevap2vp", "cevap3vp", "cevap4vp", "cevap5vp"]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "examId": "2",
+    "title": "Data Structures",
+    "faculty": "backend",
+    "questions": [
+      {
+        "title": "soru bir ds",
+        "correct": "cevap1ds",
+        "answers": ["cevap1ds", "cevap2ds", "cevap3ds", "cevap4ds", "cevap5ds"]
+      },
+      {
+        "title": "soru iki ds",
+        "correct": "cevap3ds",
+        "answers": ["cevap1ds", "cevap2ds", "cevap3ds", "cevap4ds", "cevap5ds"]
+      },
+      {
+        "title": "soru üc ds",
+        "correct": "cevap5ds",
+        "answers": ["cevap1ds", "cevap2ds", "cevap3ds", "cevap4ds", "cevap5ds"]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "examId": "3",
+    "faculty": "english",
+    "title": "English I",
+    "questions": [
+      {
+        "title": "soru bir ing",
+        "correct": "cevap1ing",
+        "answers": [
+          "cevap1ing",
+          "cevap2ing",
+          "cevap3ing",
+          "cevap4ing",
+          "cevap5ing"
+        ]
+      },
+      {
+        "title": "soru iki ing",
+        "correct": "cevap3ing",
+        "answers": [
+          "cevap1ing",
+          "cevap2ing",
+          "cevap3ing",
+          "cevap4ing",
+          "cevap5ing"
+        ]
+      },
+      {
+        "title": "soru üc ing",
+        "correct": "cevap5ing",
+        "answers": [
+          "cevap1ing",
+          "cevap2ing",
+          "cevap3ing",
+          "cevap4ing",
+          "cevap5ing"
+        ]
+      }
+    ]
+  }
+]

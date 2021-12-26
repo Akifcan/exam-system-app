@@ -1,0 +1,72 @@
+[
+  {
+    "password": "12345",
+    "role": "teacher",
+    "id": 1,
+    "name": "Muhammad Irshad",
+    "faculty": "frontend",
+    "profilePhoto": "https://assets.codepen.io/206848/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1&width=512"
+  },
+  {
+    "faculty": "frontend",
+    "password": "12345",
+    "role": "teacher",
+    "id": 2,
+    "name": "Kevin Powell",
+    "profilePhoto": "https://d33wubrfki0l68.cloudfront.net/3156dc4cf5f0f6b69cde5bdd18f0ff31eccb14e0/67c46/img/f21b00ed-300.jpeg"
+  },
+  {
+    "faculty": "backend",
+    "password": "12345",
+    "role": "teacher",
+    "id": 3,
+    "name": "Ania Kubow",
+    "profilePhoto": "https://blog.codersrank.io/wp-content/uploads/2021/03/Ania-rs2.jpg"
+  },
+  {
+    "faculty": "fullstack",
+    "password": "12345",
+    "role": "teacher",
+    "id": 4,
+    "name": "Brad Traversy",
+    "profilePhoto": "https://avatars.githubusercontent.com/u/5550850?v=4"
+  },
+  {
+    "faculty": "frontend",
+    "password": "12345",
+    "role": "teacher",
+    "id": 5,
+    "name": "Dev Ed",
+    "profilePhoto": "https://yt3.ggpht.com/ytc/AKedOLSB-oR-xmvVSZXJ3gbK12uvv0AJUvajwxMie_R_uw=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "faculty": "frontend",
+    "password": "12345",
+    "role": "teacher",
+    "id": 6,
+    "name": "Kyle Cook",
+    "profilePhoto": "https://www.personality-database.com/profile_images/331561.png"
+  },
+  {
+    "faculty": "english",
+    "password": "12345",
+    "role": "teacher",
+    "id": 7,
+    "name": "Çilem Akar",
+    "profilePhoto": "https://images.gr-assets.com/users/1615805265p5/51064034.jpg"
+  },
+  {
+    "role": "student",
+    "id": 8,
+    "name": "akif",
+    "profilePhoto": "https://media-exp1.licdn.com/dms/image/C4E03AQEW6QPZAJzGlQ/profile-displayphoto-shrink_400_400/0/1618076503234?e=1644451200&v=beta&t=v1FrkgmaiHky4XHMiYohEWBcuMHR20WF3P9qc52dMYI",
+    "password": "123456"
+  },
+  {
+    "role": "student",
+    "id": 9,
+    "name": "j.fla",
+    "profilePhoto": "https://pbs.twimg.com/profile_images/1342443471211175936/GCkBFVZe_400x400.jpg",
+    "password": "12345"
+  }
+]
